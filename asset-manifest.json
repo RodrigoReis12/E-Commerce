@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7089c6b0.css",
+    "main.js": "/react-gh-pages/static/js/main.6ecea4c7.js",
+    "static/media/video1.mp4": "/react-gh-pages/static/media/video1.c3ec179a0589ceb05ae9.mp4",
+    "static/media/img8.jpg": "/react-gh-pages/static/media/img8.d6960fca3a41e0150be3.jpg",
+    "static/media/imgWomen.jpg": "/react-gh-pages/static/media/imgWomen.75b3d9c17467f0829086.jpg",
+    "static/media/imgMen.jpg": "/react-gh-pages/static/media/imgMen.1af87c9f2c656f6133d3.jpg",
+    "static/media/rope.webp": "/react-gh-pages/static/media/rope.4e069bccfd20def60349.webp",
+    "static/media/jacket.webp": "/react-gh-pages/static/media/jacket.d6be39d2c7f366468b85.webp",
+    "static/media/airbag.webp": "/react-gh-pages/static/media/airbag.8e6344b4d453ab393dec.webp",
+    "static/media/jacket2.webp": "/react-gh-pages/static/media/jacket2.fcf4ad7327200899bce9.webp",
+    "static/media/pants.webp": "/react-gh-pages/static/media/pants.9479607900f3526888e8.webp",
+    "static/media/bags.webp": "/react-gh-pages/static/media/bags.f778c28972f93646d936.webp",
+    "static/media/Logo1.svg": "/react-gh-pages/static/media/Logo1.596e205b65f1ab64a48afa5db4b2b9a0.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.7089c6b0.css.map": "/react-gh-pages/static/css/main.7089c6b0.css.map",
+    "main.6ecea4c7.js.map": "/react-gh-pages/static/js/main.6ecea4c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7089c6b0.css",
+    "static/js/main.6ecea4c7.js"
+  ]
+}
