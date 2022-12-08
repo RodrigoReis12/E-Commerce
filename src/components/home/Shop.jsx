@@ -9,7 +9,7 @@ import AirBag from '../../assets/img/airbag.webp';
 function Shop() {
   return (
     <div>
-        <ul className='text-xl font-inter ml-5 grid grid-cols-1 grid-rows-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-20 lg:gap-x-5'>
+        <ul className='text-xl font-inter ml-5 grid grid-cols-1 grid-rows-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-20 lg:gap-x-5 sm:mb-20'>
             <a href="">
               <li className='flex items-center justify-between border-b-2 lg:border-r-2 lg:border-b-0'>Eiger Extreme<img  className='w-1/6' src={ Jacket } alt="" /></li>
             </a>

@@ -8,7 +8,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 function Footer() {
   return (
-    <div className='bg-[#1E405C] pt-10 sm:mt-20'>
+    <div className='bg-[#1E405C] pt-10 '>
         <ul className='grid grid-cols-2 grid-rows-2 items-center text-center text-white font-inter mb-7 sm:w-1/2 sm:m-auto'>
             <li className='flex flex-col items-center flex-wrap'>
                 <ChatBubbleBottomCenterIcon className='w-5'/>

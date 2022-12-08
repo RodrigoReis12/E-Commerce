@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo1 from '../../assets/img/Logo1.svg';
 import Img8 from '../../assets/img/img8.jpg';
@@ -17,11 +18,11 @@ function Header() {
   return (
 
     <div>
-      <nav className={`hidden lg:flex lg:text-white lg:justify-between lg:text-center lg:p-6 lg:absolute lg:z-10 lg:w-full ${open ? "invisible" : ""}`}>
+      <nav className={`hidden lg:flex lg:text-white lg:justify-between lg:text-center lg:p-6 lg:absolute lg:z-10 lg:w-full lg:px-10 ${open ? "invisible" : ""}`}>
         <div className='lg:flex lg:gap-3'>
-          <a className='hover:-skew-x-[20deg]' href="#" onClick={ () => setOpen(!open) }><Bars2Icon className='w-[24px]'/></a>
+          <button className='hover:-skew-x-[20deg]' href="#" onClick={ () => setOpen(!open) }><Bars2Icon className='w-[24px]'/></button>
         </div>
-          <img className='cursor-pointer' src={ Logo1 } alt="test"/>
+          <Link to='/E-commerce'><img src={ Logo1 } /></Link>
           <div className='flex gap-3'>
             <a  href="/">
               <UserIcon className='w-[24px] hover:brightness-50'/>
@@ -38,12 +39,12 @@ function Header() {
       {/* sidebar */}
 
       <div className={`${open ? "z-10 visible" : "hidden"} w-1/3 bg-white h-screen px-10 fixed`}>
-          <a className='cursor-pointer' onClick={ () => setOpen(!open) } href="#"  ><XMarkIcon className='w-[24px] mt-8 '/></a>
+          <button className='cursor-pointer' onClick={ () => setOpen(!open) } href="#"  ><XMarkIcon className='w-[24px] mt-8 '/></button>
         <nav>
-          <div className='flex flex-col text-4xl font-inter text-[#3a3939] mt-10  gap-5'>
-            <a className='border-b-2 pb-5 font-medium' href="/">Clothing</a>
-            <a className='border-b-2 pb-5 font-medium' href="/">Footwear</a>
-            <a className='border-b-2 pb-5 font-medium' href="/">Equipment</a>
+          <div className='flex flex-col text-4xl font-inter text-[#3a3939] mt-10 gap-5'>
+            <Link className='border-b-2 pb-5 font-medium' to='/clothing'>Clothing</Link>
+            <Link className='border-b-2 pb-5 font-medium' to='/footwear'>Footwear</Link>
+            <Link className='border-b-2 pb-5 font-medium' to='/equipment'>Equipment</Link>
           </div>
           
           <div className='mt-10'>
@@ -67,8 +68,8 @@ function Header() {
                 <h1 className='text-5xl font-overpass lg:text-7xl'>New for fall</h1>
                 <p className='text-base font-inter mt-7 mb-7 lg:text-base'>Find that golden fall glow with highlights from our new collection.</p>
                 <div className="flex gap-8">
-                  <a className='text-sm font-inter lg:text-base hover:scale-125' href="www.localhost:3000">Women</a>
-                  <a className='text-sm font-inter lg:text-base hover:scale-125' href="www.localhost:3000">Men</a>
+                  <a className='text-sm font-inter lg:text-base hover:scale-125' href="https://rodrigoreis12.github.io/E-commerce/">Women</a>
+                  <a className='text-sm font-inter lg:text-base hover:scale-125' href="https://rodrigoreis12.github.io/E-commerce/">Men</a>
                 </div>
               </div>
             </div>
