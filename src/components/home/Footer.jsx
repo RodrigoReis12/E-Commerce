@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import { ChatBubbleBottomCenterIcon } from "@heroicons/react/24/outline";
-import { PhoneIcon } from "@heroicons/react/24/outline";
-import { StarIcon } from "@heroicons/react/24/outline";
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { ChatBubbleBottomCenterIcon } from "@heroicons/react/24/outline"
+import { PhoneIcon } from "@heroicons/react/24/outline"
+import { StarIcon } from "@heroicons/react/24/outline"
+import { EnvelopeIcon } from "@heroicons/react/24/outline"
 
 
 function Footer() {
@@ -71,6 +71,6 @@ function Footer() {
         </div>
     </div>
   )
-};
+}
 
-export default Footer;
+export default Footer

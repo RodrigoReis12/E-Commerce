@@ -1,5 +1,5 @@
-import React from 'react';
-import Video from '../../assets/video/video1.mp4';
+import React from 'react'
+import Video from '../../assets/video/video1.mp4'
 
 function Explore() {
   return (
@@ -15,6 +15,6 @@ function Explore() {
         </div>
     </div>
   )
-};
+}
 
-export default Explore;
+export default Explore
