@@ -3,7 +3,7 @@
 
 # Manut E-commerce
 
-Projeto realizado com foco em aprimorar conceitos de **javascript**.
+Project that simulates an E-commerce, made in **React**, responsive and with features, among them a shopping cart, where can you insert and remove items.
 
 ## Link 
 
